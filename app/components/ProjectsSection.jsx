@@ -11,8 +11,8 @@ const projectsData = [
     description: "a simple API request and render of the data",
     image: "/images/projects/ApiRequest.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    prieviewUrl: "/",
+    gitUrl: "https://github.com/TYoung922/first_api_request",
+    prieviewUrl: "https://tyoung922.github.io/first_api_request/",
   },
   {
     id: 2,
@@ -20,8 +20,8 @@ const projectsData = [
     description: "a memory match game app using JavaScirpt",
     image: "/images/projects/MemoryMatch.png",
     tag: ["All", "Web", "Game"],
-    gitUrl: "/",
-    prieviewUrl: "/",
+    gitUrl: "https://github.com/TYoung922/Memory_Game",
+    prieviewUrl: "https://tyoung922.github.io/Memory_Game/",
   },
   {
     id: 3,
@@ -29,7 +29,61 @@ const projectsData = [
     description: "a simple but good website I built from scratch",
     image: "/images/projects/MarioClub.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/TYoung922/Mario_club",
+    prieviewUrl: "https://tyoung922.github.io/Mario_club/",
+  },
+  {
+    id: 4,
+    title: "Cafe Menu",
+    description: "a basic web menu",
+    image: "/images/projects/CafeMenu.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/TYoung922/cafe_menu",
+    prieviewUrl: "https://tyoung922.github.io/cafe_menu/",
+  },
+  {
+    id: 5,
+    title: "Interactive Site",
+    description: "a web page displaying different techniques",
+    image: "/images/projects/InteractiveSite.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/TYoung922/Interactive_html_css",
+    prieviewUrl: "https://tyoung922.github.io/Interactive_html_css/",
+  },
+  {
+    id: 6,
+    title: "Java Quiz",
+    description: "a simple quiz app",
+    image: "/images/projects/JavaQuiz.png",
+    tag: ["All", "App"],
+    gitUrl: "https://github.com/TYoung922/java_quiz",
+    prieviewUrl: "https://tyoung922.github.io/java_quiz/",
+  },
+  {
+    id: 7,
+    title: "List App",
+    description: "an app for making lists that stores info",
+    image: "/images/projects/ListApp.png",
+    tag: ["All", "App"],
+    gitUrl: "https://github.com/TYoung922/java_list_program",
+    prieviewUrl: "https://tyoung922.github.io/java_list_program/",
+  },
+  {
+    id: 8,
+    title: "Password Generator",
+    description: "an app for generating passwords that can take variables",
+    image: "/images/projects/PasswordGenerator.png",
+    tag: ["All", "App"],
+    gitUrl: "https://github.com/TYoung922/password_generator",
+    prieviewUrl: "https://tyoung922.github.io/password_generator/",
+  },
+  {
+    id: 9,
+    title: "Fighting Game",
+    description: "a basic fighting game",
+    image: "/images/projects/FightingGame2.png",
+    tag: ["All", "Game"],
+    gitUrl: "https://github.com/TYoung922/Fiting_game",
     prieviewUrl: "/",
   },
 ];
@@ -67,6 +121,11 @@ const ProjectsSection = () => {
           onCLick={handleTagChange}
           name="Web"
           isSelected={tag === "Web"}
+        />
+        <ProjectTag
+          onCLick={handleTagChange}
+          name="App"
+          isSelected={tag === "App"}
         />
         <ProjectTag
           onCLick={handleTagChange}
