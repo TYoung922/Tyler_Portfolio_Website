@@ -2,14 +2,20 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
-    <section>
+    <section className="lg:py-16 ">
       <div className="grid grid-cols-1 sm:grid-cols-12">
-        <div className="col-span-7 place-self-center text-center sm:text-left">
-          <h1 className="text-white mb-4 text-4xl sm:text-4xl lg:text-5xl font-extrabold">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-green-400 to-emerald-800">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="col-span-8 place-self-center text-center sm:text-left justify-self-start"
+        >
+          <h1 className="text-white mb-4 text-4xl sm:text-4xl lg:text-7xl lg:leading-normal font-extrabold">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-secondary-500 via-primary-400 to-emerald-800">
               Hello, I&apos;m{" "}
             </span>
             <br />
@@ -46,8 +52,13 @@ const HeroSection = () => {
               </span>
             </button>
           </div>
-        </div>
-        <div className="col-span-5 place-self-center mt-4 lg:mt-0">
+        </motion.div>
+        <motion.div
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+          className="col-span-4  place-self-center mt-4 lg:mt-0"
+        >
           <div className="rounded-full bg-[#424242] w-[250px] h-[250px] lg:w-[275px] lg:h-[275px] relative">
             <Image
               src="/images/program_wizard2.jpeg"
@@ -58,7 +69,7 @@ const HeroSection = () => {
               style={{ borderRadius: "50%" }}
             />
           </div>
-        </div>
+        </motion.div>
       </div>
     </section>
   );
