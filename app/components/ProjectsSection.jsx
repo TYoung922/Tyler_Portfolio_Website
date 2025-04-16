@@ -84,7 +84,7 @@ const projectsData = [
     image: "/images/projects/FightingGame2.png",
     tag: ["All", "Game"],
     gitUrl: "https://github.com/TYoung922/Fiting_game",
-    prieviewUrl: "/",
+    prieviewUrl: "https://tyoung922.github.io/Fighting_game/",
   },
 ];
 

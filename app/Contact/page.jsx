@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 // import ProjectsSection from "./components/ProjectsSection";
 import EmailSection from "../components/EmailSection";
 import Footer from "../components/Footer";
+import Head from "next/head";
 // import AchievmentsSection from "./components/AchievmentsSection";
 
 export default function Home() {

@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import GithubIcon from "../../public/images/icons/github.png";
+import LinkedInIcon from "../../public/images/icons/LinkedIn.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -54,9 +55,16 @@ const EmailSection = () => {
           open. Whether you have a question or just want to say hi, I&apos;ll
           try my best to get back to you!
         </p>
-        <div className="socials flex flex-row gap-2 w-16 h-16">
+        <div className="socials flex flex-row gap-2 w-23 h-23">
           <Link href="https://github.com/TYoung922">
-            <Image src={GithubIcon} alt="Github Icon" />
+            <Image src={GithubIcon} alt="Github Icon" style={{ width: 75 }} />
+          </Link>
+          <Link href="https://linkedin.com/in/tyler-young-341a64318">
+            <Image
+              src={LinkedInIcon}
+              alt="LinkedIn Icon"
+              style={{ width: 135 }}
+            />
           </Link>
         </div>
       </div>

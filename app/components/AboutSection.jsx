@@ -15,6 +15,8 @@ const Tab_data = [
         <li>JavaScript</li>
         <li>React</li>
         <li>HTML/CSS</li>
+        <li>Python</li>
+        <li>C#</li>
       </ul>
     ),
   },
