@@ -86,6 +86,15 @@ const projectsData = [
     gitUrl: "https://github.com/TYoung922/Fiting_game",
     prieviewUrl: "https://tyoung922.github.io/Fighting_game/",
   },
+  {
+    id: 10,
+    title: "Python Text Games",
+    description: "Simple text games using Python",
+    image: "/images/projects/TextGames.png",
+    tag: ["All", "Game"],
+    gitUrl: "https://github.com/TYoung922/python_final",
+    prieviewUrl: "https://python-text-games.onrender.com/",
+  },
 ];
 
 const ProjectsSection = () => {
