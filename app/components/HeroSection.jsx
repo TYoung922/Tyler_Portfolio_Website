@@ -37,10 +37,12 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#adb7be] text-base sm:text-lg mb-6 lg:text-xl ">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum iure
-            ducimus, accusantium possimus ex eligendi tempore fuga suscipit vel
-            numquam commodi alias quo dignissimos voluptas facere similique
-            labore enim incidunt.
+            This website is a showcase of some of the work I have done as well
+            as a place to share some information on some of my qualifications. I
+            am looking for full time work but am willing to do freelance work as
+            well. If you are interested in a website or other project, please
+            share some of the details with me. Together we can grow both our
+            businesses.
           </p>
           <div>
             <button className="px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-green-500 to-emerald-950 hover:bg-slate-400 text-black font-semibold">
