@@ -89,7 +89,8 @@ const projectsData = [
   {
     id: 10,
     title: "Python Text Games",
-    description: "Simple text games using Python",
+    description:
+      "Simple text games using Python \n(this may take a moment to load as it is running on render)",
     image: "/images/projects/TextGames.png",
     tag: ["All", "Game"],
     gitUrl: "https://github.com/TYoung922/python_final",
